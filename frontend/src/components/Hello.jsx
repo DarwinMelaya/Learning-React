@@ -1,7 +1,8 @@
 function Hello() {
   return (
     <div>
-      <h1>Hello for a component</h1>
+      <h1>Hello for a component!</h1>
+      <h1>Wow</h1>
     </div>
   );
 }
