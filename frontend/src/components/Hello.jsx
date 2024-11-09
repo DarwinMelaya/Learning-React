@@ -1,7 +1,9 @@
-function Hello() {
+function Hello(props) {
   return (
     <div>
-      <h1>Hello Darwin</h1>
+      <h1>
+        {props.message} {props.name}
+      </h1>
     </div>
   );
 }
